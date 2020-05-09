@@ -1,138 +1,138 @@
 'use strict';
 
-goog.provide('Blockly.Msg.en');
+goog.provide('Blockly.Msg.bg');
 
 goog.require('Blockly.Msg');
 
-Blockly.Msg.ARRAY_CREATE_EMPTY_TITLE = 'empty!';
-Blockly.Msg.tab_create="create element block for array %1'";
-Blockly.Msg.tab_create_fix="create block 'set element in array %1 to'";
-Blockly.Msg.ARRAY_CREATE_WITH="set with";
-Blockly.Msg.ARRAY_taille="size";
-Blockly.Msg.ARRAY_contenu="contain";
-Blockly.Msg.ARRAY_dim="size of ";
-Blockly.Msg.ARRAY_index="index";
-Blockly.Msg._AT= "to";
-Blockly.Msg.ARRAY_CREATE_WITH = "created with";
-Blockly.Msg.ARRAY_CREATE_WITH_CONTAINER_TITLE_ADD = "array";
-Blockly.Msg.ARRAY_CREATE_WITH_CONTAINER_TOOLTIP = "Add, remove, or reorder sections to reconfigure this array block.";
+Blockly.Msg.ARRAY_CREATE_EMPTY_TITLE = 'празно!';
+Blockly.Msg.tab_create="създай блок елемент за масив %1'";
+Blockly.Msg.tab_create_fix="създай блок 'задай елемент в масив %1 до'";
+Blockly.Msg.ARRAY_CREATE_WITH="задай с/със";
+Blockly.Msg.ARRAY_taille="размер";
+Blockly.Msg.ARRAY_contenu="съдържа";
+Blockly.Msg.ARRAY_dim="с размер ";
+Blockly.Msg.ARRAY_index="индекс";
+Blockly.Msg._AT= "до";
+Blockly.Msg.ARRAY_CREATE_WITH = "създаден с";
+Blockly.Msg.ARRAY_CREATE_WITH_CONTAINER_TITLE_ADD = "масив";
+Blockly.Msg.ARRAY_CREATE_WITH_CONTAINER_TOOLTIP = "Добави, премахни или пренареди секциите, за да конфигурираш отново този масив.";
 Blockly.Msg.ARRAY_CREATE_WITH_HELPURL = "";
-Blockly.Msg.ARRAY_CREATE_WITH_INPUT_WITH = "an array";
-Blockly.Msg.ARRAY_CREATE_WITH_ITEM_TITLE = "item";
-Blockly.Msg.ARRAY_CREATE_WITH_ITEM_TOOLTIP = "Add an item to the array.";
-Blockly.Msg.ARRAY_CREATE_WITH_TOOLTIP = "Create a array with any number of items.";
-Blockly.Msg.ARRAY_GETINDEX_AT = "get index";
-Blockly.Msg.ARRAY_GETINDEX_AT1 = "get index";
-Blockly.Msg.ARRAY_GETINDEX_AT2 = "index";
+Blockly.Msg.ARRAY_CREATE_WITH_INPUT_WITH = "масив";
+Blockly.Msg.ARRAY_CREATE_WITH_ITEM_TITLE = "елемент";
+Blockly.Msg.ARRAY_CREATE_WITH_ITEM_TOOLTIP = "Добави елемент към масива.";
+Blockly.Msg.ARRAY_CREATE_WITH_TOOLTIP = "Създай масив с произволен брой елементи.";
+Blockly.Msg.ARRAY_GETINDEX_AT = "вземи индекс";
+Blockly.Msg.ARRAY_GETINDEX_AT1 = "вземи индекс";
+Blockly.Msg.ARRAY_GETINDEX_AT2 = "индекс";
 Blockly.Msg.ARRAY_GETINDEX_HELPURL = "";
-Blockly.Msg.ARRAY_GETINDEX_ITEM = "in Array";
+Blockly.Msg.ARRAY_GETINDEX_ITEM = "в Масив";
 Blockly.Msg.ARRAY_GETINDEX_TOOLTIP = "";
-Blockly.Msg.ARRAY_GETINDEX_TOOLTIP1="retourne la valeur stockée dans la liste ou tableau";
-Blockly.Msg.ARRAY_GETINDEX_TOOLTIP2="créé une liste ou tableau du type sélectionné";
-Blockly.Msg.ARRAY_GETINDEX_TOOLTIP3="fixe un (ou plusieurs) élément(s) de la liste ou tableau à la (aux) valeur(s) indiquée(s)";
-Blockly.Msg.ARRAY_CREATE = "define ";
-Blockly.Msg.ARRAY_TAILLE = "size";
-Blockly.Msg.ARRAY_CONTIENT = "with";
-Blockly.Msg.ARRAY_LIST = "list";
-Blockly.Msg.ARRAY_ARRAY = "array";
-Blockly.Msg.ARRAY_fixe = "change element at position";
-Blockly.Msg.ARRAY_DECLARE_NAME = "create array";
-Blockly.Msg.ARRAY_DECLARE_TYPE = "type";
-Blockly.Msg.ARRAY_DECLARE_SIZE = "number of elements";
-Blockly.Msg.ARRAY_DECLARE_TOOLTIP = "create an array of specific type and number of elements";
-Blockly.Msg.ARRAY_MODIFY_INDICE = "set element nb";
-Blockly.Msg.ARRAY_MODIFY_NAME = "in array";
-Blockly.Msg.ARRAY_MODIFY_VALUE = "value";
-Blockly.Msg.ARRAY_MODIFY_TOOLTIP = "set a specific value to an elemnt of an array";
+Blockly.Msg.ARRAY_GETINDEX_TOOLTIP1="връща стойността, запазена в списъка или таблицата";
+Blockly.Msg.ARRAY_GETINDEX_TOOLTIP2="създава списък или таблица от избрания тип";
+Blockly.Msg.ARRAY_GETINDEX_TOOLTIP3="задава един (или повече) елемент(и) в списъка или таблицата на определената(ите) стойност(и)";
+Blockly.Msg.ARRAY_CREATE = "дефиниране ";
+Blockly.Msg.ARRAY_TAILLE = "размер";
+Blockly.Msg.ARRAY_CONTIENT = "с";
+Blockly.Msg.ARRAY_LIST = "списък";
+Blockly.Msg.ARRAY_ARRAY = "масив";
+Blockly.Msg.ARRAY_fixe = "промени елемент на позиция";
+Blockly.Msg.ARRAY_DECLARE_NAME = "създай масив";
+Blockly.Msg.ARRAY_DECLARE_TYPE = "тип";
+Blockly.Msg.ARRAY_DECLARE_SIZE = "брой елементи";
+Blockly.Msg.ARRAY_DECLARE_TOOLTIP = "създай масив от конкретен тип и брой елементи";
+Blockly.Msg.ARRAY_MODIFY_INDICE = "задай елеемнт nb";
+Blockly.Msg.ARRAY_MODIFY_NAME = "в масив";
+Blockly.Msg.ARRAY_MODIFY_VALUE = "стойност";
+Blockly.Msg.ARRAY_MODIFY_TOOLTIP = "задава конкретна стойност на елемент от масива (Array)";
 
 //ESK 6/13/2015 SWITCH CASE
-Blockly.Msg.CONTROLS_SWITCH_CASEBREAK_TOOLTIP = "Add a condition to the case block.";
-Blockly.Msg.CONTROLS_SWITCH_DEFAULT_TOOLTIP = "Add a final, catch-all condition to the if block.";
+Blockly.Msg.CONTROLS_SWITCH_CASEBREAK_TOOLTIP = "Добавя условие към блока 'в случай' (case)";
+Blockly.Msg.CONTROLS_SWITCH_DEFAULT_TOOLTIP = "Добавете окончателно условие за прихващане към блока 'ако' (if).";
 Blockly.Msg.CONTROLS_SWITCH_HELPURL = "https://en.wikipedia.org/wiki/Switch_statement";
-Blockly.Msg.CONTROLS_SWITCH_SWITCH_TOOLTIP = "Add, remove, or reorder sections to reconfigure this if block.";
-Blockly.Msg.CONTROLS_SWITCH_VAR_TITLE = "Switch (";
+Blockly.Msg.CONTROLS_SWITCH_SWITCH_TOOLTIP = "Добави, премахни или пренареди секциите, за да преконфигурираш този, 'ако' (if) блок.";
+Blockly.Msg.CONTROLS_SWITCH_VAR_TITLE = "Превключи (";
 Blockly.Msg.CONTROLS_SWITCH_VAR_TAIL = ")";
-Blockly.Msg.CONTROLS_SWITCH_MSG_DEFAULT = "default";
-Blockly.Msg.CONTROLS_SWITCH_MSG_CASEBREAK = "case";
-Blockly.Msg.CONTROLS_SWITCH_MSG_SWITCHVAR = "Switch (var)";
-Blockly.Msg.CONTROLS_SWITCH_MSG_DO = "do";
-Blockly.Msg.CONTROLS_SWITCH_TOOLTIP_1 = "If a value is true, then do some statements.";
-Blockly.Msg.CONTROLS_SWITCH_TOOLTIP_2 = "If a value is true, then do the first block of statements. Otherwise, do the second block of statements.";
-Blockly.Msg.CONTROLS_SWITCH_TOOLTIP_3 = "If the first value is true, then do the first block of statements. Otherwise, if the second value is true, do the second block of statements.";
-Blockly.Msg.CONTROLS_SWITCH_TOOLTIP_4 = "If the first value is true, then do the first block of statements. Otherwise, if the second value is true, do the second block of statements. If none of the values are true, do the last block of statements.";
-Blockly.Msg.CONTROLS_SWITCH_VAR_TOOLTIP = "Drag from the left into here to add";
-Blockly.Msg.CONTROLS_SWITCH_CASEBREAK_TOOLTIP = "Add additional case break do";
-Blockly.Msg.CONTROLS_SWITCH_DEFAULT_TOOLTIP ="Add optional default action";
+Blockly.Msg.CONTROLS_SWITCH_MSG_DEFAULT = "по подразбиране (default)";
+Blockly.Msg.CONTROLS_SWITCH_MSG_CASEBREAK = "в случай (case)";
+Blockly.Msg.CONTROLS_SWITCH_MSG_SWITCHVAR = "Превключи (var)";
+Blockly.Msg.CONTROLS_SWITCH_MSG_DO = "направи";
+Blockly.Msg.CONTROLS_SWITCH_TOOLTIP_1 = "Ако стойността е вярна (true), изпълни израза.";
+Blockly.Msg.CONTROLS_SWITCH_TOOLTIP_2 = "Ако стойността е вярна (true), изпълни първия блок от израза. В противен случай изпълни втория блок от израза.";
+Blockly.Msg.CONTROLS_SWITCH_TOOLTIP_3 = "Ако първата стойност е вярна (true), изпълни първия блок от израза. В противен случай, ако втората стойност е вярна (true), изпълни втория блок.";
+Blockly.Msg.CONTROLS_SWITCH_TOOLTIP_4 = "Ако първата стойност е вярна (true), изпълни първия блок от израза. В противен случай, ако втората стойност е вярна (true), изпълни втория блок. Ако нито една от стойностите е вярна (true), изпълни последния блок от израза.";
+Blockly.Msg.CONTROLS_SWITCH_VAR_TOOLTIP = "Влачете отляво тук, за да добавите";
+Blockly.Msg.CONTROLS_SWITCH_CASEBREAK_TOOLTIP = "Добавете допълнителен 'в случай прекъсни направи' (case break do)";
+Blockly.Msg.CONTROLS_SWITCH_DEFAULT_TOOLTIP ="Добави окончателно прихващане (default) по избор";
 
-Blockly.Msg.TEXT_CHAR_TOOLTIP = "character value that takes up 1 byte of memory";
+Blockly.Msg.TEXT_CHAR_TOOLTIP = "символна стойност, която заема 1 байт памет";
 Blockly.Msg.TEXT_CHAR_HELPURL = "https://www.arduino.cc/reference/en/language/variables/data-types/string/";
 Blockly.Msg.TEXT_COMPARE_STRING_HELPURL = "";
-Blockly.Msg.TEXT_COMPARE_STRING_TEXT = "Comparison of the two chains: ";
+Blockly.Msg.TEXT_COMPARE_STRING_TEXT = "Сравнение на двете вериги: ";
 Blockly.Msg.TEXT_COMPARE_STRING_TEXT2 = " = ";
-Blockly.Msg.TEXT_COMPARE_STRING_TOOLTIP = "Lets you know if two strings are identical or not.";
+Blockly.Msg.TEXT_COMPARE_STRING_TOOLTIP = "Показва дали двата низа са идентични или не.";
 
 
 //july 9th function from JP Fontaine workspace
-Blockly.Msg.PROCEDURES_DEFRETURN_FUNCTION = "for function";
-Blockly.Msg.PROCEDURES_DEFRETURN_TYPE = "type";
+Blockly.Msg.PROCEDURES_DEFRETURN_FUNCTION = "за функция";
+Blockly.Msg.PROCEDURES_DEFRETURN_TYPE = "тип";
 
-Blockly.Msg.VARIABLES_AS = "as";
-Blockly.Msg.VARIABLES_SET_CONST = "constant %1 set %2";
-Blockly.Msg.ARD_TYPE_ARRAY = "Array";
-Blockly.Msg.ARD_TYPE_BOOL = "Boolean";
-Blockly.Msg.ARD_TYPE_CHAR = "Character";
+Blockly.Msg.VARIABLES_AS = "като";
+Blockly.Msg.VARIABLES_SET_CONST = "константа %1 задай %2";
+Blockly.Msg.ARD_TYPE_ARRAY = "Масив (Array)";
+Blockly.Msg.ARD_TYPE_BOOL = "Булева (Boolean)";
+Blockly.Msg.ARD_TYPE_CHAR = "Буква (Character)";
 Blockly.Msg.ARD_TYPE_CHILDBLOCKMISSING = "ChildBlockMissing";
-Blockly.Msg.ARD_TYPE_DECIMAL = "Decimal";
-Blockly.Msg.ARD_TYPE_LONG = "Large Number";
-Blockly.Msg.ARD_TYPE_NULL = "Null";
-Blockly.Msg.ARD_TYPE_NUMBER = "Number";
-Blockly.Msg.ARD_TYPE_SHORT = "Short Number (byte)";
-Blockly.Msg.ARD_TYPE_TEXT = "Text";
-Blockly.Msg.ARD_TYPE_UNDEF = "Undefined";
-Blockly.Msg.ARD_TYPE_UNS_NUMBER = "Unsigned number";
-Blockly.Msg.ARD_TYPE_UNS_LONG = "Unsigned Long Number";
-Blockly.Msg.ARD_TYPE_VOLATILE = "Volatile integer";
+Blockly.Msg.ARD_TYPE_DECIMAL = "Десетичен (Decimal)";
+Blockly.Msg.ARD_TYPE_LONG = "Голямо число (Large Number)";
+Blockly.Msg.ARD_TYPE_NULL = "Нула (Null)";
+Blockly.Msg.ARD_TYPE_NUMBER = "Число (Number)";
+Blockly.Msg.ARD_TYPE_SHORT = "Кратко число (Short Number (byte))";
+Blockly.Msg.ARD_TYPE_TEXT = "Текст (Text)";
+Blockly.Msg.ARD_TYPE_UNDEF = "Неопределен (Undefined)";
+Blockly.Msg.ARD_TYPE_UNS_NUMBER = "Неопределено число (Unsigned number)";
+Blockly.Msg.ARD_TYPE_UNS_LONG = "Неопределено голямо число (Unsigned Long Number)";
+Blockly.Msg.ARD_TYPE_VOLATILE = "Непостоянно цяло число (Volatile integer)";
 
 //**********************************categories***********************************************
 //**********************************categories***********************************************
 //**********************************categories***********************************************
 
-Blockly.Msg.CAT_LOOPS = "Loops";
-Blockly.Msg.CAT_LOGIC = "Logic";
-Blockly.Msg.CAT_IF = "If";
-Blockly.Msg.CAT_BOOL = "Boolean";
-Blockly.Msg.CAT_MATH = "Math";
-Blockly.Msg.CAT_TEXT = "Text";
-Blockly.Msg.CAT_LIST = "Lists";
-Blockly.Msg.CAT_ARRAY = "Array";
-Blockly.Msg.CAT_COLOR = "Color";
-Blockly.Msg.CAT_VARIABLES = "Variables";
-Blockly.Msg.CAT_FUNCTIONS = "Functions";
+Blockly.Msg.CAT_LOOPS = "Цикли";
+Blockly.Msg.CAT_LOGIC = "Логика";
+Blockly.Msg.CAT_IF = "Ако (If)";
+Blockly.Msg.CAT_BOOL = "Булеви";
+Blockly.Msg.CAT_MATH = "Математика";
+Blockly.Msg.CAT_TEXT = "Текст";
+Blockly.Msg.CAT_LIST = "Списъци";
+Blockly.Msg.CAT_ARRAY = "Масиви";
+Blockly.Msg.CAT_COLOR = "Цвят";
+Blockly.Msg.CAT_VARIABLES = "Променливи";
+Blockly.Msg.CAT_FUNCTIONS = "Функции";
 Blockly.Msg.CAT_ARDUINO = "Arduino";
-Blockly.Msg.CAT_ARDUINO_IN = "In";
-Blockly.Msg.CAT_ARDUINO_OUT = "Out";
-Blockly.Msg.CAT_ARDUINO_CONVERSION = "converting";
-Blockly.Msg.CAT_ARDUINO_TIME = "time";
-Blockly.Msg.CAT_ARDUINO_COMM_SERIAL = "serial communication";
-Blockly.Msg.CAT_ARDUINO_COMM_SOFTSERIAL = "softserial lib";
-Blockly.Msg.CAT_ARDUINO_SERVO = "Servo-Motor";
+Blockly.Msg.CAT_ARDUINO_IN = "Вход";
+Blockly.Msg.CAT_ARDUINO_OUT = "Изход";
+Blockly.Msg.CAT_ARDUINO_CONVERSION = "Конвертиране";
+Blockly.Msg.CAT_ARDUINO_TIME = "Време";
+Blockly.Msg.CAT_ARDUINO_COMM_SERIAL = "Серийна комуникация ";
+Blockly.Msg.CAT_ARDUINO_COMM_SOFTSERIAL = "Софтсериал библиотека";
+Blockly.Msg.CAT_ARDUINO_SERVO = "Серво мотор";
 
 Blockly.Msg.CAT_ANEMOROTATION = "Anemometer with cups"; //added september 16th 2017
 
 Blockly.Msg.CAT_ADAFRUIT_MOTORSHIELD = "Adafruit Motorshield";
 Blockly.Msg.CAT_ADAFRUIT_MOTORSHIELD_v1 = "Adafruit Motorshield v1";
 Blockly.Msg.CAT_ADAFRUIT_MOTORSHIELD_v2 = "Adafruit Motorshield v2";
-Blockly.Msg.CAT_ADAFRUIT_JOYSTICK = "Joystick";
+Blockly.Msg.CAT_ADAFRUIT_JOYSTICK = "Джойстик";
 
 Blockly.Msg.CAT_BLYNK_CC = "BLYNK.CC"; //Added by M. Leroy July 24th 2017
 Blockly.Msg.CAT_Blynk_Arduino_Connexion =" - Connection type";
-Blockly.Msg.CAT_Blynk_Controllers = " - Controllers";
-Blockly.Msg.CAT_Blynk_Dysplays = " - Dysplays";
-Blockly.Msg.CAT_Blynk_Interface = " - Interface";
-Blockly.Msg.CAT_Blynk_Notifications = " - Notification";
-Blockly.Msg.CAT_Blynk_Programmation = " - Programming";
-Blockly.Msg.CAT_Blynk_Other = " - Other";
-Blockly.Msg.CAT_Blynk_Sensors = " - Smartphone Sensors";
+Blockly.Msg.CAT_Blynk_Controllers = " - Контролери";
+Blockly.Msg.CAT_Blynk_Dysplays = " - Дисплеи";
+Blockly.Msg.CAT_Blynk_Interface = " - Интерфейс";
+Blockly.Msg.CAT_Blynk_Notifications = " - Известие";
+Blockly.Msg.CAT_Blynk_Programmation = " - Програмиране";
+Blockly.Msg.CAT_Blynk_Other = " - Други";
+Blockly.Msg.CAT_Blynk_Sensors = " - Смартфон сензори";
 
 Blockly.Msg.CAT_DFRobot = "DFRobot";
 Blockly.Msg.CAT_DFRobot_SHIELD_LCDKEYPAD = "Shield LCD Keypad"; //Added february 27th 2016
@@ -143,13 +143,13 @@ Blockly.Msg.CAT_LED_RGB_CHAIN = "chainable RGB LED";
 Blockly.Msg.CAT_OLED_U8G = "OLED screen I2C";
 
 Blockly.Msg.CAT_ROBUNO = "RobUno";  //added march 17th 2016
-Blockly.Msg.CAT_ROBUNO_IN = "sensors";
-Blockly.Msg.CAT_ROBUNO_OUT = "actuators";
+Blockly.Msg.CAT_ROBUNO_IN = "сензори";
+Blockly.Msg.CAT_ROBUNO_OUT = "актуатори";
 Blockly.Msg.CAT_ROBUNO_MOTORS_CC = "moteurs CC";
 
 Blockly.Msg.CAT_FISCHERTECHNIK = "fischertechnik";  //added march 26th 2016
-Blockly.Msg.CAT_FISCHERTECHNIK_IN = "sensors";
-Blockly.Msg.CAT_FISCHERTECHNIK_OUT = "actuators";
+Blockly.Msg.CAT_FISCHERTECHNIK_IN = "сензори";
+Blockly.Msg.CAT_FISCHERTECHNIK_OUT = "актуатори";
 Blockly.Msg.CAT_FISCHERTECHNIK_MOTORS_CC = "moteurs CC";
 
 Blockly.Msg.CAT_FLYCAMONE = "FlyCamOne Eco v2"; //added august 20th 2016
@@ -260,7 +260,8 @@ Blockly.Msg.CAT_SHARP = "Sharp IR";
 
 Blockly.Msg.CAT_MATRIX_LED_RGB = "Matrix RGB LED 8x8"; //added 25 march 2017
 
-Blockly.Msg.CAT_STORAGE_EEPROM = "storage"; //added 29 march 2017
+Blockly.Msg.CAT_STORAGE_EEPROM = "Съхранение"; //added 29 march 2017
+Blockly.Msg.CAT_STORAGE_EEPROM = "Съхранение"; //added 29 march 2017
 
 Blockly.Msg.CAT_DRONE = "drone"; //added 26 april 2017
 
@@ -301,7 +302,7 @@ Blockly.Msg.CAT_ACTIONNEURS_DFRobot_SHIELD_LCDKEYPAD = " - LCD screen";
 Blockly.Msg.CAT_ACTIONNEURS_ARDUINO_moteur = " - motor";
 Blockly.Msg.CAT_ACTIONNEURS_DFPLAYER = " - audio";
 
-Blockly.Msg.CAT_POLOLU = "Pololu"; //added 24/01/2018 
+Blockly.Msg.CAT_POLOLU = "Pololu"; //added 24/01/2018
 Blockly.Msg.CAT_POLOLU_QTR_1RC = " - QTR-1RC";
 
 Blockly.Msg.CAT_WII = "Nintendo Wiimote"; //added 3/04/2018
@@ -317,7 +318,7 @@ Blockly.Msg.CAT_NRF24L01 = "nRF24L01"; //added 31/05/2018
 Blockly.Msg.CAT_SEEED = "Seeed studio"; //added 01/03/2018
 Blockly.Msg.CAT_MUSIC_SHIELD = "Seeed Music Shield v2.2"; //added 01/03/2018
 
-// Nouvelle arborescence 
+// Nouvelle arborescence
 Blockly.Msg.CAT_FONCTION_AFFICHAGE = "Affichage";
 Blockly.Msg.CAT_FONCTION_CAPTEURS = "Capteurs";
 Blockly.Msg.CAT_FONCTION_MOTEURS = "Commande Moteurs";
@@ -388,18 +389,18 @@ Blockly.Msg.CAT_VIRTUINO = "Virtuino"; //added 08/05/2020
 
 //**********************************Dropdown menus messages***********************************************
 
-Blockly.Msg.FIELDDROPDOWN = [["HIGH", "HIGH"], ["LOW", "LOW"]];
-Blockly.Msg.FIELDDROPDOWN_ONOFF = [["ON", "ON"], ["OFF", "OFF"]];
-Blockly.Msg.FIELDDROPDOWN_0_1 = [["HAUT", "HIGH"], ["BAS", "LOW"]];
+Blockly.Msg.FIELDDROPDOWN = [["ВИСОКО", "HIGH"], ["НИСКО", "LOW"]];
+Blockly.Msg.FIELDDROPDOWN_ONOFF = [["ВКЛЮЧЕНО", "ON"], ["ИЗКЛЮЧЕНО", "OFF"]];
+Blockly.Msg.FIELDDROPDOWN_0_1 = [["ВИСОКО", "HIGH"], ["НИСКО", "LOW"]];
 Blockly.Msg.ligne = [["1", "1"], ["2", "2"]];
 Blockly.Msg.colonne = [["1", "1"],["2", "2"],["3", "3"],["4", "4"],["5", "5"],["6", "6"],["7", "7"],["8", "8"],["9", "9"],["10", "10"],["11", "11"],["12", "12"],["14", "14"],["14", "14"],["15", "15"],["16", "16"]];
-Blockly.Msg.FIELDDROPDOWN_av_ar = [["avant", "HIGH"], ["arrière", "LOW"]];
+Blockly.Msg.FIELDDROPDOWN_av_ar = [["преден", "HIGH"], ["заден", "LOW"]];
 Blockly.Msg.INOUT_HIGH_LEVEL = "1 -> HIGH";
 Blockly.Msg.INOUT_LOW_LEVEL = "0 -> low";
-Blockly.Msg.WII_JOY_DROPDOWN = [["horizontal", "H"], ["vertical", "V"]];
+Blockly.Msg.WII_JOY_DROPDOWN = [["хоризонтален", "H"], ["вертикален", "V"]];
 Blockly.Msg.WII_ACCEL_DROPDOWN = [["X", "X"], ["Y", "Y"], ["Z", "Z"]];
 Blockly.Msg.WII_ACCEL_BUTTON = [["C", "C"], ["Z", "Z"]];
-Blockly.Msg.WII_ACCEL_BUTTON_STATE = [["pressed", "PRESSED"], ["released", "RELEASED"]];
+Blockly.Msg.WII_ACCEL_BUTTON_STATE = [["натиснат", "PRESSED"], ["ненатиснат", "RELEASED"]];
 
 //**********************************FieldInstance messages***********************************************
 Blockly.Msg.COMPONENT_WARN = "A %1 configuration block with the same '%2' name must be added to use this block!";
@@ -417,135 +418,135 @@ Blockly.Msg.SHARP_IR_COMPONENT = 'Sharp IR';
 //**********************************blocks***********************************************
 
 // Ardublockly instances
-Blockly.Msg.NEW_INSTANCE = 'New Instance';
-Blockly.Msg.RENAME_INSTANCE = 'Rename Instance';
-Blockly.Msg.NEW_INSTANCE_TITLE = 'New Instance Name:';
-Blockly.Msg.RENAME_INSTANCE_TITLE = 'Rename all "%1" instances to:';
+Blockly.Msg.NEW_INSTANCE = 'Нова инстанция';
+Blockly.Msg.RENAME_INSTANCE = 'Преименуване на инстанция';
+Blockly.Msg.NEW_INSTANCE_TITLE = 'Име на новата инстанция:';
+Blockly.Msg.RENAME_INSTANCE_TITLE = 'Преименувай всичките "%1" инстанции на:';
 
 Blockly.Msg.ARDUINO_BASE_DELAY_HELPURL = "http://arduino.cc/en/Reference/delay";
-Blockly.Msg.ARDUINO_BASE_DELAY_DELAY_TIME = "delay (in ms)";
-Blockly.Msg.ARDUINO_BASE_DELAY_DELAY_TIME_SEC = "delay (in s)";
-Blockly.Msg.ARDUINO_BASE_DELAY_TOOLTIP = "specify the pause time in milliseconds";
-Blockly.Msg.ARDUINO_BASE_SETUP = "Setup";
+Blockly.Msg.ARDUINO_BASE_DELAY_DELAY_TIME = "закъснение (в ms)";
+Blockly.Msg.ARDUINO_BASE_DELAY_DELAY_TIME_SEC = "закъснение (в s)";
+Blockly.Msg.ARDUINO_BASE_DELAY_TOOLTIP = "посочи времето за пауза в милисекунди";
+Blockly.Msg.ARDUINO_BASE_SETUP = "Настройка setup()";
 Blockly.Msg.ARDUINO_BASE_SETUP_HELPURL = "https://www.arduino.cc/en/Reference/Setup";
-Blockly.Msg.ARDUINO_BASE_LOOP = "Arduino loop forever:";
+Blockly.Msg.ARDUINO_BASE_LOOP = "Arduino безкраен цикъл loop():";
 Blockly.Msg.ARDUINO_BASE_SETUP_LOOP_HELPURL = "https://www.arduino.cc/en/Reference/Loop";
 Blockly.Msg.ARDUINO_SINCE_PROGRAM_STARTED_HELPURL = "https://www.arduino.cc/en/Reference/Millis";
-Blockly.Msg.ARDUINO_SINCE_PROGRAM_STARTED = "time (in ms) since program started";
-Blockly.Msg.ARDUINO_SINCE_PROGRAM_STARTED_SEC = "time (in s) since program started";
-Blockly.Msg.ARDUINO_SINCE_PROGRAM_STARTED_TOOLTIP = "Number of milliseconds since the program started (unsigned long)";
-Blockly.Msg.ARDUINO_BETWEEN = "random number between";
-Blockly.Msg.ARDUINO_BETWEEN_AND = "and";
+Blockly.Msg.ARDUINO_SINCE_PROGRAM_STARTED = "време (в ms) от началото на програмата";
+Blockly.Msg.ARDUINO_SINCE_PROGRAM_STARTED_SEC = "време (в s) от началото на програмата";
+Blockly.Msg.ARDUINO_SINCE_PROGRAM_STARTED_TOOLTIP = "Брой милисекунди от стартирането на програмата (неопределено дълго)";
+Blockly.Msg.ARDUINO_BETWEEN = "произволно число между";
+Blockly.Msg.ARDUINO_BETWEEN_AND = "и";
 Blockly.Msg.ARDUINO_BASE_MAP_HELPURL ="http://arduino.cc/en/Reference/map";
-Blockly.Msg.ARDUINO_BASE_MAP_NUM ="to the transposed ";
-Blockly.Msg.ARDUINO_BASE_MAP_DMAX = "over a range of [0-";
-Blockly.Msg.ARDUINO_BASE_MAP_TOOLTIP = "transfer a value on a scale from 0 to 1023 to another scale";
-Blockly.Msg.ARDUINO_BASE_CODE = "Coding";
+Blockly.Msg.ARDUINO_BASE_MAP_NUM ="до преместената ";
+Blockly.Msg.ARDUINO_BASE_MAP_DMAX = "за диапазон от [0-";
+Blockly.Msg.ARDUINO_BASE_MAP_TOOLTIP = "прехвърляне на стойност по скала от 0 до 1023 в друга скала";
+Blockly.Msg.ARDUINO_BASE_CODE = "Кодиране";
 Blockly.Msg.ARDUINO_BASE_COMMENT_HELPURL = "https://www.arduino.cc/reference/en/language/structure/further-syntax/blockcomment/";
-Blockly.Msg.ARDUINO_BASE_COMMENT_TEXT = "comment";
-Blockly.Msg.ARDUINO_BASE_CONST = "define";
+Blockly.Msg.ARDUINO_BASE_COMMENT_TEXT = "коментар";
+Blockly.Msg.ARDUINO_BASE_CONST = "дефиниране";
 Blockly.Msg.ARDUINO_BASE_DEFINE_HELPURL = "https://www.arduino.cc/en/Reference/Define";
-Blockly.Msg.ARDUINO_BASE_DEFINE = "Define";
-Blockly.Msg.ARDUINO_BASE_DEFINE_TOOLTIP = "Define constants & librairies";
+Blockly.Msg.ARDUINO_BASE_DEFINE = "Дефиниране";
+Blockly.Msg.ARDUINO_BASE_DEFINE_TOOLTIP = "Дефиниране на константи и библиотеки";
 Blockly.Msg.ARDUINO_BASE_DEFINE_CONST_HELPURL = "https://www.arduino.cc/en/Reference/Define";
-Blockly.Msg.ARDUINO_BASE_DEFINE_CONST_INPUT1 = "define variable";
-Blockly.Msg.ARDUINO_BASE_DEFINE_CONST_INPUT2 = "as";
-Blockly.Msg.ARDUINO_BASE_DEFINE_CONST_TOOLTIP = "allows the programmer to give a name to a constant value before the program is compiled";
-Blockly.Msg.ARDUINO_BASE_END = 'wait forever (END of program)';
-Blockly.Msg.ARDUINO_BASE_BEGIN_TOOLTIP = "help to show start and end of a program";
-Blockly.Msg.ARDUINO_BASE_BEGIN = "START program";
-Blockly.Msg.ARDUINO_BASE_TEMPO1 = "when";
-Blockly.Msg.ARDUINO_BASE_TEMPO2 = "elapsed";
-Blockly.Msg.ARDUINO_BASE_TEMPO_TIME = [["microsecondes", "us"],["millisecondes", "ms"],["secondes", "s"]];
-Blockly.Msg.ARDUINO_BASE_TEMPO_TOOLTIP = "Verify if interval of time is elapsed, if so do instructions.";
+Blockly.Msg.ARDUINO_BASE_DEFINE_CONST_INPUT1 = "дефинирай променлива";
+Blockly.Msg.ARDUINO_BASE_DEFINE_CONST_INPUT2 = "като";
+Blockly.Msg.ARDUINO_BASE_DEFINE_CONST_TOOLTIP = "позволява на програмиста да даде име на константата преди компилиране на програмата";
+Blockly.Msg.ARDUINO_BASE_END = 'чакай вечно (КРАЙ (END) на програмата)';
+Blockly.Msg.ARDUINO_BASE_BEGIN_TOOLTIP = "помага за показване на началото и края на програмата";
+Blockly.Msg.ARDUINO_BASE_BEGIN = "Начало (START) на програмата";
+Blockly.Msg.ARDUINO_BASE_TEMPO1 = "когато";
+Blockly.Msg.ARDUINO_BASE_TEMPO2 = "са изминали";
+Blockly.Msg.ARDUINO_BASE_TEMPO_TIME = [["микросекунди", "us"],["милисекунди", "ms"],["секунди", "s"]];
+Blockly.Msg.ARDUINO_BASE_TEMPO_TOOLTIP = "Проверява дали е изтекъл интервал от време, ако е така, изпълнява инструкциите.";
 Blockly.Msg.ARDUINO_BASE_TEMPO_HELPURL = "http://www.mon-club-elec.fr/pmwiki_reference_arduino/pmwiki.php?n=Main.ExempleBlinkWithoutDelay";
-Blockly.Msg.ARDUINO_BASE_TOGGLE = "toggle PIN state";
-Blockly.Msg.ARDUINO_BASE_TOGGLE_TOOLTIP = "Toggle :\nwrite logic state 0 if was 1, or 1 if was 1, on PIN#";
-Blockly.Msg.ARDUINO_BASE_INCLUDE_FILE_TEXT = "Inclure un fichier";
-Blockly.Msg.ARDUINO_BASE_INCLUDE_FILE_NAME = "Nom du fichier";
-Blockly.Msg.ARDUINO_BASE_INCLUDE_FILE_TOOLTIP = "Permet d'inclure un fichier contenu dans le repertoire de travail";
+Blockly.Msg.ARDUINO_BASE_TOGGLE = "превключи състояние на PIN";
+Blockly.Msg.ARDUINO_BASE_TOGGLE_TOOLTIP = "Превключване :\nзаписва логическо състояние 0 ако е било 1, или 1 ако е било 1, на PIN#";
+Blockly.Msg.ARDUINO_BASE_INCLUDE_FILE_TEXT = "Добави файл";
+Blockly.Msg.ARDUINO_BASE_INCLUDE_FILE_NAME = "Име на файл";
+Blockly.Msg.ARDUINO_BASE_INCLUDE_FILE_TOOLTIP = "Позволява да се добави файл, съдържащ се в работната директория";
 Blockly.Msg.ARDUINO_BASE_INCLUDE_FILE_HELPURL = "https://www.arduino.cc/reference/en/language/structure/further-syntax/include/";
-Blockly.Msg.ARDUINO_BASE_INCLUDE_LIB_TEXT = "include librarie";
-Blockly.Msg.ARDUINO_BASE_INCLUDE_LIB_TOOLTIP = " include outside libraries in your sketch";
-Blockly.Msg.ARDUINO_CONSTRAIN = "constrain";
-Blockly.Msg.ARDUINO_CONSTRAIN_X = " number";
-Blockly.Msg.ARDUINO_CONSTRAIN_A = "from A = ";
-Blockly.Msg.ARDUINO_CONSTRAIN_B = "to B = ";
+Blockly.Msg.ARDUINO_BASE_INCLUDE_LIB_TEXT = "добави библиотека";
+Blockly.Msg.ARDUINO_BASE_INCLUDE_LIB_TOOLTIP = " включи външни библиотеки в схемата";
+Blockly.Msg.ARDUINO_CONSTRAIN = "ограничи";
+Blockly.Msg.ARDUINO_CONSTRAIN_X = " число";
+Blockly.Msg.ARDUINO_CONSTRAIN_A = "от A = ";
+Blockly.Msg.ARDUINO_CONSTRAIN_B = "до B = ";
 Blockly.Msg.ARDUINO_CONSTRAIN_HELPURL = 'http://arduino.cc/en/Reference/Constrain';
-Blockly.Msg.ARDUINO_CONSTRAIN_TOOLTIP = 'Constrains a number to be within a range.';
+Blockly.Msg.ARDUINO_CONSTRAIN_TOOLTIP = 'Ограничи числото да бъде в обхват.';
 Blockly.Msg.ARDUINO_INOUT_BUILDIN_LED_HELPURL = "http://arduino.cc/en/Reference/DigitalWrite";
-Blockly.Msg.ARDUINO_INOUT_BUILDIN_LED_INPUT = "put the LEDs on the card to logic";
-Blockly.Msg.ARDUINO_INOUT_BUILDIN_LED_TOOLTIP = "off or turn on the LED on the Arduino board";
+Blockly.Msg.ARDUINO_INOUT_BUILDIN_LED_INPUT = "задай ЛЕДа на платката като логически";
+Blockly.Msg.ARDUINO_INOUT_BUILDIN_LED_TOOLTIP = "изключи или включи ЛЕДa на платката";
 Blockly.Msg.ARDUINO_INOUT_DIGITAL_WRITE_HELPURL = "http://arduino.cc/en/Reference/DigitalWrite";
-Blockly.Msg.ARDUINO_INOUT_DIGITAL_WRITE_INPUT1 = "put the pin Digital";
-Blockly.Msg.ARDUINO_INOUT_DIGITAL_WRITE_INPUT2 = "to logic state";
-Blockly.Msg.ARDUINO_INOUT_DIGITAL_WRITE_TOOLTIP = "write a 0 or 1 state numeric on a specific output";
+Blockly.Msg.ARDUINO_INOUT_DIGITAL_WRITE_INPUT1 = "задай Цифров (Digital) ПИН ";
+Blockly.Msg.ARDUINO_INOUT_DIGITAL_WRITE_INPUT2 = "в логическо състояние";
+Blockly.Msg.ARDUINO_INOUT_DIGITAL_WRITE_TOOLTIP = "запиши числово състояние 0 или 1 на конкретен изход";
 Blockly.Msg.ARDUINO_INOUT_DIGITAL_READ_HELPURL = "http://arduino.cc/en/Reference/DigitalRead";
-Blockly.Msg.ARDUINO_INOUT_DIGITAL_READ_INPUT = "the logic state of the digital pin";
-Blockly.Msg.ARDUINO_INOUT_DIGITAL_READ_TOOLTIP = "reading the digital state 0 or 1 of the digital pin";
-Blockly.Msg.ARDUINO_INOUT_DIGITAL_READ_PULL_UP = "pull up";
-Blockly.Msg.ARDUINO_INOUT_DIGITAL_READ_PULL_UP_TOOLTIP = "reading the digital state 0 or 1 of the digital pin\npull-up option to check";
+Blockly.Msg.ARDUINO_INOUT_DIGITAL_READ_INPUT = "логическото състояние на цифров (digital) ПИН";
+Blockly.Msg.ARDUINO_INOUT_DIGITAL_READ_TOOLTIP = "прочети цифровото състояние 0 или 1 на цифров (digital) ПИН";
+Blockly.Msg.ARDUINO_INOUT_DIGITAL_READ_PULL_UP = "вдигни";
+Blockly.Msg.ARDUINO_INOUT_DIGITAL_READ_PULL_UP_TOOLTIP = "прочети цифровото състояние 0 или 1 на цифров (digital) ПИН\npull-up option to check";
 Blockly.Msg.ARDUINO_INOUT_PWM_WRITE_HELPURL = "http://arduino.cc/en/Reference/AnalogWrite";
-Blockly.Msg.ARDUINO_INOUT_PWM_WRITE_INPUT1 = "write on pin PWM~";
-Blockly.Msg.ARDUINO_INOUT_PWM_WRITE_INPUT2 = "value";
-Blockly.Msg.ARDUINO_INOUT_PWM_WRITE_TOOLTIP = "send a value between 0 and 255 on a specific output \nWARNING verify the No. on the board !";
+Blockly.Msg.ARDUINO_INOUT_PWM_WRITE_INPUT1 = "запиши на ПИН PWM~";
+Blockly.Msg.ARDUINO_INOUT_PWM_WRITE_INPUT2 = "стойност";
+Blockly.Msg.ARDUINO_INOUT_PWM_WRITE_TOOLTIP = "изпрати стойност между 0 и 255 на конкретен изход\nПРЕДУПРЕЖДЕНИЕ провери № на платката!";
 Blockly.Msg.ARDUINO_INOUT_ANALOG_WRITE_HELPURL = "http://arduino.cc/en/Reference/AnalogWrite";
-Blockly.Msg.ARDUINO_INOUT_ANALOG_WRITE_INPUT1 = "write about Analog pin";
-Blockly.Msg.ARDUINO_INOUT_ANALOG_WRITE_INPUT2 = "value";
-Blockly.Msg.ARDUINO_INOUT_ANALOG_WRITE_TOOLTIP = "send a value between 0 and 255 on a specific output";
+Blockly.Msg.ARDUINO_INOUT_ANALOG_WRITE_INPUT1 = "запиши относно Аналогов (Analog) ПИН";
+Blockly.Msg.ARDUINO_INOUT_ANALOG_WRITE_INPUT2 = "стойност";
+Blockly.Msg.ARDUINO_INOUT_ANALOG_WRITE_TOOLTIP = "изпрати стойност между 0 и 255 на конкретен изход";
 Blockly.Msg.ARDUINO_TONE_HELPURL = "http://arduino.cc/en/Reference/AnalogWrite";
-Blockly.Msg.ARDUINO_TONE_INPUT1 = "emits sound on the pin";
-Blockly.Msg.ARDUINO_TONE_INPUT2 = "on frequency (Hz)";
-Blockly.Msg.ARDUINO_TONE_INPUT3 = "for a time (ms)";
-Blockly.Msg.ARDUINO_TONE_TOOLTIP = "emits sound on the selected pin";
+Blockly.Msg.ARDUINO_TONE_INPUT1 = "излъчи звук на ПИН";
+Blockly.Msg.ARDUINO_TONE_INPUT2 = "с честота (Hz)";
+Blockly.Msg.ARDUINO_TONE_INPUT3 = "за време (ms)";
+Blockly.Msg.ARDUINO_TONE_TOOLTIP = "излъчи звук на избрания ПИН";
 Blockly.Msg.ARDUINO_NOTONE_HELPURL = "http://arduino.cc/en/Reference/AnalogWrite";
-Blockly.Msg.ARDUINO_NOTONE_INPUT = "stop sound on the pin";
-Blockly.Msg.ARDUINO_NOTONE_TOOLTIP = "mutes the sound on the selected pin";
+Blockly.Msg.ARDUINO_NOTONE_INPUT = "спри звука на ПИН";
+Blockly.Msg.ARDUINO_NOTONE_TOOLTIP = "заглуши звука на избрания ПИН";
 Blockly.Msg.ARDUINO_INOUT_ANALOG_READ_HELPURL = "http://arduino.cc/en/Reference/AnalogRead";
-Blockly.Msg.ARDUINO_INOUT_ANALOG_READ_INPUT = "read value on the analog input";
-Blockly.Msg.ARDUINO_INOUT_ANALOG_READ_TOOLTIP = "returns a value between 0 and 1023";
+Blockly.Msg.ARDUINO_INOUT_ANALOG_READ_INPUT = "прочети стойност на аналоговия (analog) вход";
+Blockly.Msg.ARDUINO_INOUT_ANALOG_READ_TOOLTIP = "върни стойност между 0 и 1023";
 Blockly.Msg.ARDUINO_INOUT_ONOFF_HELPURL = "http://arduino.cc/en/Reference/Constants";
-Blockly.Msg.ARDUINO_INOUT_STATE = "state";
-Blockly.Msg.ARDUINO_INOUT_ANGLE = "angle";
-Blockly.Msg.ARDUINO_INOUT_ANGLE_TOOLTIP = "angle entre 0 et 360°";
+Blockly.Msg.ARDUINO_INOUT_STATE = "състояние";
+Blockly.Msg.ARDUINO_INOUT_ANGLE = "ъгъл";
+Blockly.Msg.ARDUINO_INOUT_ANGLE_TOOLTIP = "ъгъл между 0 и 360°";
 Blockly.Msg.ARDUINO_INOUT_ANGLE_HELPURL = "https://developers.google.com/blockly/guides/create-custom-blocks/fields/built-in-fields/angle";
-Blockly.Msg.ARDUINO_PULSEIN="PulseIn (µs) pin#";
-Blockly.Msg.ARDUINO_PULSEIN_TIMEOUT="timeout (µs) ";
+Blockly.Msg.ARDUINO_PULSEIN="PulseIn (µs) ПИН#";
+Blockly.Msg.ARDUINO_PULSEIN_TIMEOUT="изчакване (µs) ";
 Blockly.Msg.ARDUINO_SERVO_MOVE_HELPURL = "http://www.arduino.cc/playground/ComponentLib/servo";
-Blockly.Msg.ARDUINO_SERVO_MOVE_INPUT1 = "Rotate the Servo motor";
+Blockly.Msg.ARDUINO_SERVO_MOVE_INPUT1 = "Завърти сервомотор";
 Blockly.Msg.ARDUINO_SERVO_MOVE_IMAGE = "images/a991.jpg";
-Blockly.Msg.ARDUINO_SERVO_MOVE_INPUT2 = "on the pin";
-Blockly.Msg.ARDUINO_SERVO_MOVE_DEGREE = "an angle (0~180°) of";
-Blockly.Msg.ARDUINO_SERVO_MOVE_DELAY_TIME = "during a period (ms)";
-Blockly.Msg.ARDUINO_SERVO_MOVE_TOOLTIP = "rotation possible between 0 ~ 180 degrees";
+Blockly.Msg.ARDUINO_SERVO_MOVE_INPUT2 = "на ПИН";
+Blockly.Msg.ARDUINO_SERVO_MOVE_DEGREE = "ъгъл от (0~180°)";
+Blockly.Msg.ARDUINO_SERVO_MOVE_DELAY_TIME = "за период от (ms)";
+Blockly.Msg.ARDUINO_SERVO_MOVE_TOOLTIP = "възможно завъртане между 0 ~ 180 градуса";
 Blockly.Msg.ARDUINO_SERVO_READ_DEGREES_HELPURL = "http://www.arduino.cc/playground/ComponentLib/servo";
-Blockly.Msg.ARDUINO_SERVO_READ_DEGREES_INPUT1 = "the angle of the servo motor";
+Blockly.Msg.ARDUINO_SERVO_READ_DEGREES_INPUT1 = "ъгълът на сервомотора";
 Blockly.Msg.ARDUINO_SERVO_READ_DEGREES_IMAGE = "images/a991.jpg";
-Blockly.Msg.ARDUINO_SERVO_READ_DEGREES_INPUT2 = "connected on the pin";
-Blockly.Msg.ARDUINO_SERVO_READ_DEGREES_TOOLTIP = "returns the number of degrees the last rotation";
+Blockly.Msg.ARDUINO_SERVO_READ_DEGREES_INPUT2 = "свързан с ПИН";
+Blockly.Msg.ARDUINO_SERVO_READ_DEGREES_TOOLTIP = "връща броя на градусите при последното завъртане";
 Blockly.Msg.ARDUINO_SERVO_ROT_CONTINUE_HELPURL = "https://www.arduino.cc/en/Reference/ServoWrite";
-Blockly.Msg.ARDUINO_SERVO_ROT_CONTINUE_TEXT = "turn continuous servomotor";
+Blockly.Msg.ARDUINO_SERVO_ROT_CONTINUE_TEXT = "завърти непрекъснат сервомотор";
 Blockly.Msg.ARDUINO_SERVO_ROT_CONTINUE_INPUT1 = "PIN#";
-Blockly.Msg.ARDUINO_SERVO_ROT_CONTINUE_INPUT2 = "speed [0~180]";
-Blockly.Msg.ARDUINO_SERVO_ROT_CONTINUE_INPUT3 = "speed [0~90]";
-Blockly.Msg.ARDUINO_SERVO_ROT_CONTINUE_INPUT4 = "direction";
-Blockly.Msg.ARDUINO_SERVO_ROT_CONTINUE_TOOLTIP = "degrees for power : 0° -> max on left | 90° -> stop | 180° -> max on right";
+Blockly.Msg.ARDUINO_SERVO_ROT_CONTINUE_INPUT2 = "скорост [0~180]";
+Blockly.Msg.ARDUINO_SERVO_ROT_CONTINUE_INPUT3 = "скорост [0~90]";
+Blockly.Msg.ARDUINO_SERVO_ROT_CONTINUE_INPUT4 = "посока";
+Blockly.Msg.ARDUINO_SERVO_ROT_CONTINUE_TOOLTIP = "градуси за мощност : 0° -> максимум на ляво | 90° -> стоп | 180° -> максимум на дясно";
 Blockly.Msg.ARDUINO_SERVO_PIN = "PIN#";
-Blockly.Msg.ARDUINO_SERVO_ATTACH1 = "Attach Servomotor";
-Blockly.Msg.ARDUINO_SERVO_ATTACH2 = "Assign Name";
-Blockly.Msg.ARDUINO_SERVO_ATTACHED = "Servomotor attached?";
-Blockly.Msg.ARDUINO_SERVO_DETACH = "Detach Servomotor";
+Blockly.Msg.ARDUINO_SERVO_ATTACH1 = "Свържи Сервомотор";
+Blockly.Msg.ARDUINO_SERVO_ATTACH2 = "Задай име";
+Blockly.Msg.ARDUINO_SERVO_ATTACHED = "Сервомотор прикрепен?";
+Blockly.Msg.ARDUINO_SERVO_DETACH = "Откачи Сервомотор";
 Blockly.Msg.ARDUINO_SERIAL_PRINT_HELPURL = "http://www.arduino.cc/en/Serial/Print";
-Blockly.Msg.ARDUINO_SERIAL_PRINT_CONTENT = "send the data to the serial port:";
-Blockly.Msg.ARDUINO_SERIAL_PRINTLN_CONTENT = "print new line data on serial port:";
-Blockly.Msg.ARDUINO_SERIAL_PRINT_TAB_CONTENT = "print with tab data on serial port:";
-Blockly.Msg.ARDUINO_SERIAL_PRINT_TOOLTIP = "sends data over the serial port for sruvaillance by the monitor in ASCII";
-Blockly.Msg.ARDUINO_SERIAL_PRINT_VAR_TEXT = "print text on serial port :";
-Blockly.Msg.ARDUINO_SERIAL_PRINT_VAR_NUMBER = "with this following number :";
-Blockly.Msg.ARDUINO_SERIAL_PRINT_VAR_NEW_LINE = "and go to a new line ?";
-Blockly.Msg.ARDUINO_SERIAL_PRINT_MULTI_NUMBER = "Afficher sur le port Série :";
-Blockly.Msg.ARDUINO_SERIAL_PRINT_MULTI_NEWLINE = "Nouvelle ligne?";
-Blockly.Msg.ARDUINO_SERIAL_PRINT_MULTI_FIELDDROPDOWN = [["oui", "true"], ["non", "false"]];
+Blockly.Msg.ARDUINO_SERIAL_PRINT_CONTENT = "изпрати данните до серийния порт:";
+Blockly.Msg.ARDUINO_SERIAL_PRINTLN_CONTENT = "отпечатай данни за нов ред на сериен порт:";
+Blockly.Msg.ARDUINO_SERIAL_PRINT_TAB_CONTENT = "отпечатай с табулация данни на сериен порт:";
+Blockly.Msg.ARDUINO_SERIAL_PRINT_TOOLTIP = "изпраща данни през серийния порт за проследяване от монитора в ASCII";
+Blockly.Msg.ARDUINO_SERIAL_PRINT_VAR_TEXT = "отпечатай текст на сериен порт :";
+Blockly.Msg.ARDUINO_SERIAL_PRINT_VAR_NUMBER = "с този номер :";
+Blockly.Msg.ARDUINO_SERIAL_PRINT_VAR_NEW_LINE = "и премини на нов ред ?";
+Blockly.Msg.ARDUINO_SERIAL_PRINT_MULTI_NUMBER = "Покажи на серийния порт :";
+Blockly.Msg.ARDUINO_SERIAL_PRINT_MULTI_NEWLINE = "Нов ред?";
+Blockly.Msg.ARDUINO_SERIAL_PRINT_MULTI_FIELDDROPDOWN = [["вярно", "true"], ["невярно", "false"]];
 
 Blockly.Msg.LKL_ATTACHINTERRUPT_PIN = "attachInterrupt pin#";
 Blockly.Msg.LKL_DETACHINTERRUPT_PIN = "detachInterrupt pin#";
@@ -788,20 +789,20 @@ Blockly.Msg.GROVE_DRIVER_MOTOR_SPEED = "Speed";
 Blockly.Msg.GROVE_DRIVER13_HELPURL = "http://wiki.seeed.cc/Grove-I2C_Motor_Driver_V1.3/";
 Blockly.Msg.GROVE_DRIVER13_MOTOR_TITLE = "Motor Driver V1.3";
 Blockly.Msg.GROVE_DRIVER13_MOTOR_I2C_ADDRESS = "I2C Address";
-Blockly.Msg.GROVE_DRIVER13_TOOLTIP = "Motor Driver - " + 
-                            "I2C Address in range 0, 15 (0x0F) depending on the card configuration, " + 
+Blockly.Msg.GROVE_DRIVER13_TOOLTIP = "Motor Driver - " +
+                            "I2C Address in range 0, 15 (0x0F) depending on the card configuration, " +
                             "Motor speed in range -100, 100; 0 eq stop";
 //******** KEYPAD Grove minimoto */
 Blockly.Msg.GROVE_MINI_DRIVER_TITLE = "Motor Mini Driver";
 Blockly.Msg.GROVE_MINI_DRIVER_HELPURL = "http://wiki.seeed.cc/Grove-Mini_I2C_Motor_Driver_v1.0/";
 Blockly.Msg.GROVE_MINI_DRIVER_MOTOR_MSG = "Speed";
-Blockly.Msg.GROVE_MINI_DRIVER_MOTOR_TOOLTIP = "Motor Mini Driver - " + 
+Blockly.Msg.GROVE_MINI_DRIVER_MOTOR_TOOLTIP = "Motor Mini Driver - " +
                             "Motor speed in range -100, 100";
 Blockly.Msg.GROVE_MINI_DRIVER_STOP_MSG = "Stop";
-Blockly.Msg.GROVE_MINI_DRIVER_STOP_TOOLTIP = "Motor Mini Driver - " + 
+Blockly.Msg.GROVE_MINI_DRIVER_STOP_TOOLTIP = "Motor Mini Driver - " +
                             "Stops the selected motor";
 Blockly.Msg.GROVE_MINI_DRIVER_ERROR_MSG = "Status";
-Blockly.Msg.GROVE_MINI_DRIVER_ERROR_TOOLTIP = "Grove Motor Mini Driver - " + 
+Blockly.Msg.GROVE_MINI_DRIVER_ERROR_TOOLTIP = "Grove Motor Mini Driver - " +
                             "Returns select motor status (0: OK, 3 et 17: overcurrent, 9: under voltage, 5: over heat)";
 
 //added April 3rd 2015 ESK
@@ -1730,7 +1731,7 @@ Blockly.Msg.ADXL362_TEMPVALUE_TITLE = "temperature";
 Blockly.Msg.ADXL362_TEMPVALUE_TOOLTIP = "test";
 
 //******** FRESNEL : Implementation I2CSoftwareLibrary   http://playground.arduino.cc/Main/SoftwareI2CLibrary
-//******** FRESNEL : SPI 
+//******** FRESNEL : SPI
 Blockly.Msg.I2C_INIT_TEXT = "I2C_INIT";
 Blockly.Msg.I2C_INIT_PIN_SCL = "PIN_SCL";
 Blockly.Msg.I2C_INIT_PORT_SCL = "PORT_SCL";
@@ -1739,7 +1740,7 @@ Blockly.Msg.I2C_INIT_PIN_SDA = "PIN_SDA";
 Blockly.Msg.I2C_INIT_PORT_SDA = "PORT_SDA";
 Blockly.Msg.I2C_INIT_FIELDDROPDOWN_SDA = [["A", "A"], ["B", "B"], ["C", "C"], ["D", "D"], ["E", "E"]];
 Blockly.Msg.I2C_INIT_TOOLTIP = "configure les broches SDA et SCL";
-Blockly.Msg.I2C_INIT_HELPURL = "http://playground.arduino.cc/Main/SoftwareI2CLibrary";     
+Blockly.Msg.I2C_INIT_HELPURL = "http://playground.arduino.cc/Main/SoftwareI2CLibrary";
 
 Blockly.Msg.I2C_START_TEXT = "I2C_START";
 Blockly.Msg.I2C_START_ADRESS = "adresse";
@@ -1822,11 +1823,11 @@ Blockly.Msg.icn_ds18b20_HelpUrl = "https://www.carnetdumaker.net/articles/mesure
 
 Blockly.Msg.SPI_INIT_TEXT = "SPI_INIT";
 Blockly.Msg.SPI_INIT_SPEED = "fréquence (MHz)"
-Blockly.Msg.SPI_INIT_MODE = "mode";  
+Blockly.Msg.SPI_INIT_MODE = "mode";
 Blockly.Msg.SPI_INIT_MODE_FIELDDROPDOWN = [["mode 0 (0,0)", "SPI_MODE0"], ["mode 1 (0,1)", "SPI_MODE1"], ["mode 2 (1,0)", "SPI_MODE2"], ["mode 3 (1,1)", "SPI_MODE3"]];
 Blockly.Msg.SPI_INIT_BITORDER = "ordre des bits";
 Blockly.Msg.SPI_INIT_BITORDER_FIELDDROPDOWN = [["MSB -> LSB", "MSBFIRST"], ["LSB -> MSB", "LSBFIRST"]];
-Blockly.Msg.SPI_INIT_TOOLTIP = " configuration de la liaison SPI" ; 
+Blockly.Msg.SPI_INIT_TOOLTIP = " configuration de la liaison SPI" ;
 Blockly.Msg.SPI_INIT_HELPURL = " " ;
 
 Blockly.Msg.SPI_SEND_TEXT = "SPI_SEND";
@@ -2166,8 +2167,8 @@ Blockly.Msg.ETHERNET_BEGIN_DHCP_TOOLTIP = "Using Ethernet.begin(mac) with the pr
 Blockly.Msg.ETHERNET_BEGIN_HELPURL = "https://www.arduino.cc/en/Reference/EthernetBegin";
 Blockly.Msg.ETHERNET_BEGIN_TITLE = "Begin";
 Blockly.Msg.ETHERNET_BEGIN_TOOLTIP = "Initializes the ethernet library and network settings.";
-Blockly.Msg.ETHERNET_CLIENT_FOR_SERVER_TITLE = "Client Request"; 
-Blockly.Msg.ETHERNET_CLIENT_FOR_SERVER_TOOLTIP = "A client has sent a request"; 
+Blockly.Msg.ETHERNET_CLIENT_FOR_SERVER_TITLE = "Client Request";
+Blockly.Msg.ETHERNET_CLIENT_FOR_SERVER_TOOLTIP = "A client has sent a request";
 Blockly.Msg.ETHERNET_CLIENT_PRINTLN_HELPURL = "https://www.arduino.cc/en/Reference/ClientPrintln";
 Blockly.Msg.ETHERNET_CLIENT_PRINTLN_TITLE = "Client.Println";
 Blockly.Msg.ETHERNET_CLIENT_PRINTLN_TOOLTIP = "Print data, followed by a carriage return and newline, to the server a client is connected to. Prints numbers as a sequence of digits, each an ASCII character (e.g. the number 123 is sent as the three characters '1', '2', '3').";
@@ -2245,7 +2246,7 @@ Blockly.Msg.ETHERNET_VERSION_2 = "Ethernet2";
 Blockly.Msg.ETHERNET_VERSION_V2 = "Ethernet_v2";
 ////// ETHERNET WIFI ESP8266 /////
 Blockly.Msg.ETHERNET_WIFI_BEGIN_SERVER_HELPURL = "https://www.arduino.cc/en/Reference/WiFi";
-Blockly.Msg.ETHERNET_WIFI_BEGIN_SERVER_TITLE = "Begin (DHCP) WIFI Server"; 
+Blockly.Msg.ETHERNET_WIFI_BEGIN_SERVER_TITLE = "Begin (DHCP) WIFI Server";
 Blockly.Msg.ETHERNET_WIFI_SSID = "SSID";
 Blockly.Msg.ETHERNET_WIFI_PASS = "PASS";
 Blockly.Msg.ETHERNET_WIFI_BEGIN_SERVER_TOOLTIP = "initialisation de la liaison WIFI";
